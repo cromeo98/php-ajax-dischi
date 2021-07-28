@@ -1,0 +1,13 @@
+.ms_one-of-five-cols{
+    width: 20%;
+}
+
+.ms_img-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+main{
+    background-color: aquamarine;
+}
