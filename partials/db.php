@@ -1,10 +1,11 @@
 <?php
+
     $albums = [
         [
             'title' => 'Zoo',
             'author' => 'Russ',
             'year' => 2018,
-            'poster' => 'https://upload.wikimedia.org/wikipedia/en/7/75/Russ_-_Zoo.png'
+            'poster' => 'https://images-na.ssl-images-amazon.com/images/I/71YNcblSl%2BL._AC_SX679_.jpg'
         ],
         [
             'title' => 'New Jersey',
@@ -16,7 +17,7 @@
             'title' => 'To Pimp a Butterfly',
             'author' => 'Kendrick Lamar',
             'year' => 2015,
-            'poster' => 'https://www.rollingstone.it/wp-content/uploads/2015/03/KENDRICCONE-e1426160992159.png'
+            'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81VcA8-kuZL._AC_SX425_.jpg'
         ],
         [
             'title' => 'ASTROWORLD',
@@ -34,13 +35,13 @@
             'title' => 'RECOVƎRY',
             'author' => 'Eminem',
             'year' => 2010,
-            'poster' => 'https://rapmusicratings.files.wordpress.com/2018/09/recovery-e1536075287406.jpg'
+            'poster' => 'https://images-na.ssl-images-amazon.com/images/I/61fXEwg-lAL._AC_SL1400_.jpg'
         ],
         [
             'title' => '17',
-            'author' => 'X Tentacion',
+            'author' => 'XXX Tentacion',
             'year' => 2017,
-            'poster' => 'https://yt3.ggpht.com/ytc/AKedOLTPRzHhJiIWG1tXD9Jl2NIHg8PY9QHKer5DmwFetw=s900-c-k-c0x00ffffff-no-rj'
+            'poster' => 'https://m.media-amazon.com/images/I/A15sJGKfWyL._SS500_.jpg'
         ],
         [
             'title' => 'L\'unico compromesso',
@@ -52,7 +53,7 @@
             'title' => 'Hybrid Theory',
             'author' => 'Linkin Park',
             'year' => 2000,
-            'poster' => 'https://www.impericon.com/432x624x90/media/catalog/product/2/0/20200818_linkin_park_ht20_cd_lg.jpg'
+            'poster' => 'https://images-na.ssl-images-amazon.com/images/I/91NQO2l3RZL._AC_SL1500_.jpg'
         ],
         [
             'title' => 'Americana',
@@ -60,4 +61,12 @@
             'year' => 1998,
             'poster' => 'https://m.media-amazon.com/images/I/81CAxmSTEgL._SS500_.jpg'
         ],
+    ];
+
+    $playlist = [
+        'genres' => [
+            'hip-hop',
+            'rock',
+            'nu-metal'            
+        ]
     ];

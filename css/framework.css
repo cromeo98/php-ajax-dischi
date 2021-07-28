@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 ul{
@@ -24,6 +25,14 @@ ul{
 /* display */
 .d-block{
     display: block;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-flex{
+    display: flex;
 }
 
 .d-none{
@@ -182,6 +191,22 @@ ul{
 }
 .ptb-1rem{
     padding: 1rem 0;
+}
+
+.plr-5rem{
+    padding: 0 5rem;
+}
+.plr-4rem{
+    padding: 0 4rem;
+}
+.plr-3rem{
+    padding: 0 3rem;
+}
+.plr-2rem{
+    padding: 0 2rem;
+}
+.plr-1rem{
+    padding: 0 1rem;
 }
 
 .pr-5rem{
