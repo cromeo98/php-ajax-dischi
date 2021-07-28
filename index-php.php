@@ -40,7 +40,7 @@
 
                     <?php } else {?>
 
-                        <h2>Here's <?php echo isLogged($_GET['name']) ?> favourite albums</h2>
+                        <h2>Here's <?php echo isLogged($_GET['name']) ?>'s favourite albums</h2>
                     
                     <?php } ?>
 
@@ -51,13 +51,15 @@
 
                     <div class="ms_genres-container txt-cen">
 
-                        <h3>Genres: </h3>
+                        <h3>Genres:</h3>
 
                         <ul>
 
                             <?php foreach($playlist['genres'] as $genres){ ?>
 
-                                <li class="d-inline-block plr-1rem txt-upp"> <?php echo $genres ?> </li>
+                                <li class="d-inline-block plr-1rem txt-upp"> 
+                                    <a href="#"><?php echo $genres ?></a>
+                                </li>
 
                             <?php } ?>
 

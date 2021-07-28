@@ -9,6 +9,11 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit
+}
+
 /* debug */
 /* [class*="col"]{
     border: 1px solid blue;
@@ -162,51 +167,51 @@ ul{
 }
 
 .pb-5rem{
-    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .pb-4rem{
-    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 .pb-3rem{
-    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .pb-2rem{
-    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .pb-1rem{
-    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .ptb-5rem{
-    padding: 5rem 0;
+    padding: 5rem 0 5rem 0;
 }
 .ptb-4rem{
-    padding: 4rem 0;
+    padding: 4rem 0 4rem 0;
 }
 .ptb-3rem{
-    padding: 3rem 0;
+    padding: 3rem 0 3rem 0;
 }
 .ptb-2rem{
-    padding: 2rem 0;
+    padding: 2rem 0 2rem 0;
 }
 .ptb-1rem{
-    padding: 1rem 0;
+    padding: 1rem 0 1rem 0;
 }
 
 .plr-5rem{
-    padding: 0 5rem;
+    padding: 0 5rem 0 5rem;
 }
 .plr-4rem{
-    padding: 0 4rem;
+    padding: 0 4rem 0 4rem;
 }
 .plr-3rem{
-    padding: 0 3rem;
+    padding: 0 3rem 0 3rem;
 }
 .plr-2rem{
-    padding: 0 2rem;
+    padding: 0 2rem 0 2rem;
 }
 .plr-1rem{
-    padding: 0 1rem;
+    padding: 0 1rem 0 1rem;
 }
 
 .pr-5rem{

@@ -1,22 +1,38 @@
+/* generals */
 body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+/* header */
 header{
     background-color: #d8d8d8;
     color: #12151f;
     height: 10vh;
 }
 
-.ms_header-container{
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.ms_genres-container > h3{
+    padding-bottom: 2px;
+}
+
+.ms_genres-container a:hover{
+    text-decoration: underline;
 }
 
 .ms_icon-container{
     font-size: 20px;
+}
+
+/* main */
+main{
+    background-color: #12151f;
+    color: #05f4b7;
+    height: 80vh;
+    position: relative;
+}
+
+main > div{
+    height: 100%;
+    background-color: #12151f;
 }
 
 .ms_one-of-five-cols{
@@ -27,18 +43,14 @@ header{
     width: 125px;
     height: 125px;
     border-radius: 50%;
+    opacity: 0.7;
 }
 
-main{
-    background-color: #12151f;
-    color: #05f4b7;
-    height: 80vh;
+.ms_img-container img:hover{
+    opacity: 1;
 }
 
-main > div{
-    height: 100%;
-}
-
+/* footer */
 footer{
     background-color: #d8d8d8;
     color: #12151f;
@@ -46,7 +58,21 @@ footer{
     line-height: 5vh;
 }
 
-/* #371bb1 blue 
-#05f4b7 green 
-#12151f black 
-#f2f2f2 grey */
+/* positioned with d-none */
+/* .ms_lyrics-container{
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    width: 300px;
+    background-color: #d8d8d8;
+    color: #12151f;
+    display: none;
+}
+
+.ms_non-trad{
+    left: 0;
+}
+
+.ms_trad{
+    right: 0;
+} */
